@@ -1,0 +1,39 @@
+﻿# Secrets and local config
+.env
+
+# Telegram local sessions
+*.session
+*.session-journal
+
+# Python cache/build
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local artifacts
+python-installer.exe
+test_results.txt
+progress_*.txt
+live_message_map*.json
+message_registry*.json
+
+
+
+message_registry*.bak
+live_message_map*.bak
+live_heartbeat*.json
+# Portable build artifacts
+build/
+dist/
+runtime_live_stdout.log
+runtime_live_stderr.log
+# Separate portable edition (keep local only)
+telegram_news_pipeline_portable.py
+telegram_news_portable_gui.py
+telegram_news_portable_gui.spec
+build_portable_exe.ps1
+requirements-build.txt
+tests/test_telegram_news_pipeline_portable.py
+
+live_stdout.log
+live_stderr.log
