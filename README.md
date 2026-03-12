@@ -38,4 +38,5 @@ python -m unittest discover -s tests -p "test_*.py" -v
 
 ## Notes
 - `.env`, Telegram session files, registries, logs, and other local runtime artifacts are intentionally excluded from version control.
+- `public_mapping_history_snapshot.json` is a public snapshot of source-to-target message history for archival/reference purposes.
 - The separate portable/GUI build is kept local and is not part of this repository.
